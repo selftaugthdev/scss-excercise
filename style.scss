@@ -102,10 +102,11 @@ body {
     margin-bottom: 0px;
   }
   
-  .message,
-  .success,
-  .error,
-  .warning {
+  // .message,
+  // .success,
+  // .error,
+  // .warning
+  %re-use {
     border: 1px solid #ccc;
     padding: $padding;
     //padding: 16px;
@@ -116,12 +117,15 @@ body {
   
   .success {
     background-color: green;
+    @extend %re-use;
   }
   
   .error {
     background-color: red;
+    @extend %re-use;
   }
   
   .warning {
     background-color: orange;
+    @extend %re-use;
   }
