@@ -1,3 +1,6 @@
-.color-link {
-    color: white;
+.blue-link {
+    color: rgb(105, 0, 251);
+}
+&:active {
+    color: red; 
 }
