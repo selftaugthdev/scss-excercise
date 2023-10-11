@@ -28,6 +28,10 @@ body {
     -moz-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
     box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
   }
+
+  // Variables
+
+  $padding: 16px;
   
   article {
     display: flex;
@@ -41,7 +45,8 @@ body {
       // -webkit-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
       // -moz-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
       // box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
-      padding: 16px;
+      padding: $padding;
+      //padding: 16px;
       margin: 16px;
       clear: both;
       overflow: auto;
@@ -63,7 +68,8 @@ body {
     margin-bottom: 1.6em;
     max-width: 100%;
     overflow: auto;
-    padding: 16px;
+    padding: $padding;
+    //padding: 16px;
     display: block;
     white-space: pre-wrap;
   
@@ -91,7 +97,8 @@ body {
   h6 {
     text-align: center;
     font-size: 2em;
-    padding: 32px;
+    padding: ($padding * 2);
+    //padding: 32px;
     margin-bottom: 0px;
   }
   
@@ -100,7 +107,8 @@ body {
   .error,
   .warning {
     border: 1px solid #ccc;
-    padding: 16px;
+    padding: $padding;
+    //padding: 16px;
     margin: 16px;
     color: #2748b3;
     background-color: #000;
