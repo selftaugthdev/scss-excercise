@@ -88,4 +88,11 @@ h6 {
 
 .warning {
   background-color: orange;
-}/*# sourceMappingURL=style.css.map */
+}
+
+body {
+  background-color: darkblue;
+}
+body h1, body h2, body h6, body p, body li {
+  color: rgb(205, 74, 205);
+}/*# sourceMappingURL=blue.css.map */

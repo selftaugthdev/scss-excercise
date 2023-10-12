@@ -1,4 +1,11 @@
 body {
+  background-color: darkred;
+}
+body h1, body h2, body h6, body p, body li {
+  color: rgb(255, 0, 43);
+}
+
+body {
   font: 100% "Space Mono", monospace;
   color: #2748b3;
   margin: 0px;
@@ -88,4 +95,4 @@ h6 {
 
 .warning {
   background-color: orange;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=red.css.map */
